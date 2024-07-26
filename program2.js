@@ -7,7 +7,7 @@ const decodeTheRing
     const dp = Array(m + 1).fill(false).map(() => Array(n + 1).fill(false));
 
     // Base case: Empty pattern matches empty string
-    dp[0][0] = true;
+    dp[0][0] = true
 
     // Handle patterns with '*'
     for (let j = 1; j <= n; j++) {
