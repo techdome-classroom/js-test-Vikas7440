@@ -1,4 +1,5 @@
-const decodeTheRing = function (s, p) {
+const describe
+ = function (s, p) {
   const m = s.length;
   const n = p.length;
 
