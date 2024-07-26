@@ -32,4 +32,4 @@ const describe
   return dp[m][n];
 };
 
-module.exports = describe;
+module.exports = decodeTheRing;
