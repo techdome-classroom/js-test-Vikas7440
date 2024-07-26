@@ -33,4 +33,4 @@ function dfs(grid, i, j) {
   dfs(grid, i, j - 1);
 }
 
-module.exports = getTotalIsles;
+module.exports = describe;
