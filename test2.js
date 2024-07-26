@@ -1,5 +1,5 @@
 const assert = require("assert");
-const decodeTheRing = require("./program2");
+const describe = require("./program2");
  
 describe("Test cases for decodeTheRing function", function () {
   it(`Returns true for "hello", "h*llo"`, function () {
