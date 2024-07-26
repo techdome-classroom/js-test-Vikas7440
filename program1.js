@@ -1,5 +1,5 @@
 // program1.js
-function getTotalIsles(grid) {
+const  function getTotalIsles(grid) {
   if (grid == null || grid.length === 0) {
     return 0;
   }
