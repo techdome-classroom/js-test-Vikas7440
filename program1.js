@@ -1,5 +1,5 @@
 // program1.js
-function describe(grid) {
+function getTotalIsles(grid) {
   if (grid == null || grid.length === 0) {
     return 0;
   }
@@ -33,4 +33,4 @@ function dfs(grid, i, j) {
   dfs(grid, i, j - 1);
 }
 
-module.exports = describe;
+module.exports = getTotalIsles;
